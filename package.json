@@ -1,0 +1,19 @@
+{
+  "name": "Nearest-Mcdonalds",
+  "version": "1.0.0",
+  "description": "This application displays the Mcdonald's close to your current location",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Afonso",
+  "license": "ISC",
+  "devDependencies": {
+    "leaflet": "^1.4.0"
+  },
+  "dependencies": {
+    "npm": "^6.6.0"
+  }
+}
